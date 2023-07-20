@@ -64,6 +64,7 @@ function generatePassword(lower, upper, number, symbol, length) {
   return finalPassword;
 }
 
+//Getting the random chars from the UTF-16 codes
 function getRandomLower() {
   return String.fromCharCode(Math.floor(Math.random() * 26 + 97));
 }
